@@ -1,0 +1,14 @@
+        .map{
+            /* Image size needs to be in pixels for maximum overlay accuracy. */
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+        }
+
+        /* (Invisible?) buttons on map. */
+        .marker{
+            position: absolute;
+            /*background-color: rgba(255, 220, 223, 0.5);*/
+            z-index: 1;
+        }
